@@ -1,0 +1,495 @@
+{
+  "version": 1,
+  "topics": [
+    { "id": 1, "uz": "Yoʻl belgilari", "ru": "Дорожные знаки" },
+    { "id": 2, "uz": "Chorrahalar", "ru": "Перекрёстки" },
+    { "id": 3, "uz": "Quvib oʻtish", "ru": "Обгон" },
+    { "id": 4, "uz": "Toʻxtash va toʻxtab turish", "ru": "Остановка и стоянка" },
+    { "id": 5, "uz": "Svetofor va tartibga soluvchi", "ru": "Светофор и регулировщик" },
+    { "id": 6, "uz": "Piyodalar", "ru": "Пешеходы" },
+    { "id": 7, "uz": "Tibbiy yordam", "ru": "Медицинская помощь" },
+    { "id": 8, "uz": "Umumiy qoidalar", "ru": "Общие правила" }
+  ],
+  "questions": [
+    {
+      "id": 1, "ticket": 1, "topic": 1, "image": "sign_stop",
+      "text": { "uz": "Bu belgi nimani anglatadi?", "ru": "Что означает этот знак?" },
+      "answers": [
+        { "uz": "Toʻxtamasdan harakatlanish taqiqlanadi", "ru": "Движение без остановки запрещено" },
+        { "uz": "Toʻxtash taqiqlanadi", "ru": "Остановка запрещена" },
+        { "uz": "Yoʻl bering, toʻxtash shart emas", "ru": "Уступите дорогу, останавливаться не обязательно" }
+      ],
+      "correct": 0,
+      "explanation": { "uz": "Haydovchi toʻxtash chizigʻi oldida (u boʻlmasa — kesib oʻtiladigan qatnov qismi chetida) albatta toʻxtashi va kesib oʻtilayotgan yoʻldagi transport vositalariga yoʻl berishi shart.", "ru": "Водитель обязан остановиться перед стоп-линией (а при её отсутствии — перед краем пересекаемой проезжей части) и уступить дорогу транспорту на пересекаемой дороге." },
+      "source": "YHQ — ustunlik belgilari (namunaviy, rasmiy matn bilan tekshirilsin)"
+    },
+    {
+      "id": 2, "ticket": 1, "topic": 1, "image": "sign_give_way",
+      "text": { "uz": "Bu belgi nimani anglatadi?", "ru": "Что означает этот знак?" },
+      "answers": [
+        { "uz": "Yoʻl bering", "ru": "Уступите дорогу" },
+        { "uz": "Asosiy yoʻl", "ru": "Главная дорога" },
+        { "uz": "Piyodalar oʻtish joyi", "ru": "Пешеходный переход" }
+      ],
+      "correct": 0,
+      "explanation": { "uz": "«Yoʻl bering» belgisi: haydovchi kesib oʻtilayotgan yoʻldagi transport vositalariga yoʻl berishi kerak.", "ru": "Знак «Уступите дорогу»: водитель должен уступить дорогу транспортным средствам, движущимся по пересекаемой дороге." },
+      "source": "YHQ — ustunlik belgilari (namunaviy, rasmiy matn bilan tekshirilsin)"
+    },
+    {
+      "id": 3, "ticket": 1, "topic": 1, "image": "sign_no_entry",
+      "text": { "uz": "Bu belgi nimani anglatadi?", "ru": "Что означает этот знак?" },
+      "answers": [
+        { "uz": "Kirish taqiqlangan", "ru": "Въезд запрещён" },
+        { "uz": "Toʻxtab turish taqiqlangan", "ru": "Стоянка запрещена" },
+        { "uz": "Asosiy yoʻlning oxiri", "ru": "Конец главной дороги" }
+      ],
+      "correct": 0,
+      "explanation": { "uz": "Bu belgi barcha transport vositalarining shu yoʻnalishda kirishini taqiqlaydi. Odatda bir tomonlama yoʻlning qarshi tomoniga qoʻyiladi.", "ru": "Знак запрещает въезд всех транспортных средств в этом направлении. Обычно устанавливается навстречу движению по дороге с односторонним движением." },
+      "source": "YHQ — taqiqlovchi belgilar (namunaviy, rasmiy matn bilan tekshirilsin)"
+    },
+    {
+      "id": 4, "ticket": 1, "topic": 1, "image": "sign_main_road",
+      "text": { "uz": "Bu belgi nimani anglatadi?", "ru": "Что означает этот знак?" },
+      "answers": [
+        { "uz": "Asosiy yoʻl", "ru": "Главная дорога" },
+        { "uz": "Yoʻl bering", "ru": "Уступите дорогу" },
+        { "uz": "Xavfli burilish", "ru": "Опасный поворот" }
+      ],
+      "correct": 0,
+      "explanation": { "uz": "«Asosiy yoʻl» belgisi tartibga solinmagan chorrahalarda oʻtish ustunligi sizda ekanini bildiradi.", "ru": "Знак «Главная дорога» означает, что на нерегулируемых перекрёстках у вас преимущество в проезде." },
+      "source": "YHQ — ustunlik belgilari (namunaviy, rasmiy matn bilan tekshirilsin)"
+    },
+    {
+      "id": 5, "ticket": 1, "topic": 5,
+      "text": { "uz": "Sariq miltillovchi svetofor signali nimani bildiradi?", "ru": "Что означает жёлтый мигающий сигнал светофора?" },
+      "answers": [
+        { "uz": "Harakatlanishga ruxsat beradi va tartibga solinmagan chorraha yoki piyodalar oʻtish joyi borligini bildiradi", "ru": "Разрешает движение и информирует о наличии нерегулируемого перекрёстка или пешеходного перехода" },
+        { "uz": "Harakatlanish taqiqlanadi", "ru": "Движение запрещено" },
+        { "uz": "Faqat oʻngga burilishga ruxsat beradi", "ru": "Разрешает только поворот направо" }
+      ],
+      "correct": 0,
+      "explanation": { "uz": "Sariq miltillovchi signalda svetofor ishlamayotgan hisoblanadi: ustunlik yoʻl belgilari va tartibga solinmagan chorraha qoidalari boʻyicha aniqlanadi.", "ru": "При жёлтом мигающем сигнале перекрёсток считается нерегулируемым: очерёдность определяется знаками приоритета и правилами проезда нерегулируемых перекрёстков." },
+      "source": "YHQ — svetofor signallari (namunaviy, rasmiy matn bilan tekshirilsin)"
+    },
+    {
+      "id": 6, "ticket": 1, "topic": 5,
+      "text": { "uz": "Qizil va sariq signallar birga yonsa, bu nimani bildiradi?", "ru": "Что означает одновременное включение красного и жёлтого сигналов?" },
+      "answers": [
+        { "uz": "Harakatlanish taqiqlanadi va tez orada yashil signal yonishini bildiradi", "ru": "Движение запрещено, скоро включится зелёный сигнал" },
+        { "uz": "Ehtiyotkorlik bilan harakatlanishga ruxsat beradi", "ru": "Разрешает движение с осторожностью" },
+        { "uz": "Faqat toʻgʻriga harakatlanishga ruxsat beradi", "ru": "Разрешает движение только прямо" }
+      ],
+      "correct": 0,
+      "explanation": { "uz": "Qizil va sariq signallarning birga yonishi harakatlanishni taqiqlaydi va yashil signal yonishi haqida ogohlantiradi.", "ru": "Сочетание красного и жёлтого сигналов запрещает движение и информирует о предстоящем включении зелёного." },
+      "source": "YHQ — svetofor signallari (namunaviy, rasmiy matn bilan tekshirilsin)"
+    },
+    {
+      "id": 7, "ticket": 1, "topic": 5,
+      "text": { "uz": "Tartibga soluvchining ishoralari svetofor signallariga zid boʻlsa, nimaga amal qilinadi?", "ru": "Чем руководствоваться, если сигналы регулировщика противоречат сигналам светофора?" },
+      "answers": [
+        { "uz": "Tartibga soluvchining ishoralariga", "ru": "Сигналами регулировщика" },
+        { "uz": "Svetofor signallariga", "ru": "Сигналами светофора" },
+        { "uz": "Yoʻl belgilariga", "ru": "Дорожными знаками" }
+      ],
+      "correct": 0,
+      "explanation": { "uz": "Tartibga soluvchining ishoralari svetofor signallari, yoʻl belgilari va chiziqlaridan ustun turadi.", "ru": "Сигналы регулировщика имеют приоритет над сигналами светофоров, дорожными знаками и разметкой." },
+      "source": "YHQ — tartibga soluvchi ishoralari (namunaviy, rasmiy matn bilan tekshirilsin)"
+    },
+    {
+      "id": 8, "ticket": 1, "topic": 2,
+      "text": { "uz": "Teng ahamiyatli yoʻllarning tartibga solinmagan chorrahasida kimga yoʻl berish kerak?", "ru": "Кому нужно уступить дорогу на нерегулируемом перекрёстке равнозначных дорог?" },
+      "answers": [
+        { "uz": "Oʻng tomondan yaqinlashayotgan transport vositalariga", "ru": "Транспортным средствам, приближающимся справа" },
+        { "uz": "Chap tomondan yaqinlashayotgan transport vositalariga", "ru": "Транспортным средствам, приближающимся слева" },
+        { "uz": "Tezroq harakatlanayotgan transport vositasiga", "ru": "Транспортному средству, движущемуся быстрее" }
+      ],
+      "correct": 0,
+      "explanation": { "uz": "Teng ahamiyatli yoʻllar chorrahasida «oʻng qoʻl qoidasi» amal qiladi: oʻngdan yaqinlashayotganga yoʻl beriladi.", "ru": "На перекрёстке равнозначных дорог действует «правило правой руки»: уступают тому, кто приближается справа." },
+      "source": "YHQ — chorrahalardan oʻtish (namunaviy, rasmiy matn bilan tekshirilsin)"
+    },
+    {
+      "id": 9, "ticket": 1, "topic": 2,
+      "text": { "uz": "Tartibga solinmagan chorrahada chapga burilayotganda qarama-qarshi yoʻnalishdan toʻgʻriga yoki oʻngga ketayotgan transportga nisbatan qanday harakat qilasiz?", "ru": "Как поступить при повороте налево на нерегулируемом перекрёстке по отношению к встречному транспорту, движущемуся прямо или направо?" },
+      "answers": [
+        { "uz": "Ularga yoʻl beraman", "ru": "Уступлю им дорогу" },
+        { "uz": "Ustunlik menda", "ru": "Преимущество у меня" },
+        { "uz": "Tovush signali berib oʻtaman", "ru": "Проеду, подав звуковой сигнал" }
+      ],
+      "correct": 0,
+      "explanation": { "uz": "Chapga burilayotgan yoki qayrilib olayotgan haydovchi teng ahamiyatli yoʻlda qarama-qarshi yoʻnalishdan toʻgʻriga yoki oʻngga harakatlanayotgan transport vositalariga yoʻl berishi shart.", "ru": "Водитель, поворачивающий налево или разворачивающийся, обязан уступить дорогу встречным транспортным средствам, движущимся прямо или направо по равнозначной дороге." },
+      "source": "YHQ — chorrahalardan oʻtish (namunaviy, rasmiy matn bilan tekshirilsin)"
+    },
+    {
+      "id": 10, "ticket": 1, "topic": 2,
+      "text": { "uz": "Ikkinchi darajali yoʻldan asosiy yoʻlga chiqayotganda kimga yoʻl berish kerak?", "ru": "Кому нужно уступить дорогу при выезде со второстепенной дороги на главную?" },
+      "answers": [
+        { "uz": "Asosiy yoʻlda harakatlanayotgan barcha transport vositalariga", "ru": "Всем транспортным средствам, движущимся по главной дороге" },
+        { "uz": "Faqat oʻngdan kelayotganlarga", "ru": "Только приближающимся справа" },
+        { "uz": "Hech kimga — kim birinchi kelsa, oʻsha oʻtadi", "ru": "Никому — проезжает тот, кто подъехал первым" }
+      ],
+      "correct": 0,
+      "explanation": { "uz": "Ikkinchi darajali yoʻldagi haydovchi harakat yoʻnalishidan qatʼi nazar asosiy yoʻldagi transport vositalariga yoʻl berishi kerak.", "ru": "Водитель на второстепенной дороге должен уступить дорогу транспорту на главной дороге независимо от направления его дальнейшего движения." },
+      "source": "YHQ — chorrahalardan oʻtish (namunaviy, rasmiy matn bilan tekshirilsin)"
+    },
+    {
+      "id": 11, "ticket": 1, "topic": 3,
+      "text": { "uz": "Quyidagi joylarning qaysi birida quvib oʻtish taqiqlanadi?", "ru": "В каком из перечисленных мест обгон запрещён?" },
+      "answers": [
+        { "uz": "Piyodalar oʻtish joyida", "ru": "На пешеходном переходе" },
+        { "uz": "Har bir yoʻnalishda ikki tasmali yoʻlda", "ru": "На дороге с двумя полосами в каждом направлении" },
+        { "uz": "Aholi punktidan tashqaridagi toʻgʻri yoʻlda", "ru": "На прямом участке дороги вне населённого пункта" }
+      ],
+      "correct": 0,
+      "explanation": { "uz": "Piyodalar oʻtish joyida quvib oʻtish piyodalar uchun juda xavfli va taqiqlangan.", "ru": "Обгон на пешеходном переходе крайне опасен для пешеходов и запрещён." },
+      "source": "YHQ — quvib oʻtish (namunaviy, rasmiy matn bilan tekshirilsin)"
+    },
+    {
+      "id": 12, "ticket": 1, "topic": 3,
+      "text": { "uz": "Temir yoʻl kesishmasida quvib oʻtish mumkinmi?", "ru": "Разрешён ли обгон на железнодорожном переезде?" },
+      "answers": [
+        { "uz": "Yoʻq, temir yoʻl kesishmasida va unga yaqin joyda taqiqlanadi", "ru": "Нет, обгон запрещён на переезде и вблизи него" },
+        { "uz": "Ha, agar poyezd koʻrinmasa", "ru": "Да, если поезда не видно" },
+        { "uz": "Faqat kunduzi mumkin", "ru": "Только в светлое время суток" }
+      ],
+      "correct": 0,
+      "explanation": { "uz": "Temir yoʻl kesishmasida va undan oldingi belgilangan masofada quvib oʻtish taqiqlanadi.", "ru": "Обгон запрещён на железнодорожных переездах и на установленном расстоянии перед ними." },
+      "source": "YHQ — quvib oʻtish (namunaviy, rasmiy matn bilan tekshirilsin)"
+    },
+    {
+      "id": 13, "ticket": 1, "topic": 1, "image": "sign_no_overtaking",
+      "text": { "uz": "Bu belgi nimani anglatadi?", "ru": "Что означает этот знак?" },
+      "answers": [
+        { "uz": "Quvib oʻtish taqiqlangan", "ru": "Обгон запрещён" },
+        { "uz": "Qarama-qarshi harakat", "ru": "Встречное движение" },
+        { "uz": "Yengil avtomobillar harakati taqiqlangan", "ru": "Движение легковых автомобилей запрещено" }
+      ],
+      "correct": 0,
+      "explanation": { "uz": "Belgi sekin harakatlanayotgan transport, otliq aravalar, mototsikllar va velosipedlardan tashqari barcha transport vositalarini quvib oʻtishni taqiqlaydi.", "ru": "Знак запрещает обгон всех транспортных средств, кроме тихоходных, гужевых повозок, мопедов и двухколёсных мотоциклов без коляски." },
+      "source": "YHQ — taqiqlovchi belgilar (namunaviy, rasmiy matn bilan tekshirilsin)"
+    },
+    {
+      "id": 14, "ticket": 1, "topic": 3,
+      "text": { "uz": "Sizni quvib oʻtayotgan transport vositasiga nisbatan nima taqiqlanadi?", "ru": "Что запрещено водителю обгоняемого транспортного средства?" },
+      "answers": [
+        { "uz": "Tezlikni oshirish yoki boshqa yoʻl bilan quvib oʻtishga toʻsqinlik qilish", "ru": "Повышать скорость или иными действиями препятствовать обгону" },
+        { "uz": "Tezlikni kamaytirish", "ru": "Снижать скорость" },
+        { "uz": "Oʻng tomonga yaqinroq harakatlanish", "ru": "Держаться ближе к правому краю" }
+      ],
+      "correct": 0,
+      "explanation": { "uz": "Quvib oʻtilayotgan transport vositasining haydovchisi tezlikni oshirib yoki boshqa harakatlari bilan quvib oʻtishga toʻsqinlik qilmasligi kerak.", "ru": "Водителю обгоняемого транспортного средства запрещено препятствовать обгону повышением скорости или иными действиями." },
+      "source": "YHQ — quvib oʻtish (namunaviy, rasmiy matn bilan tekshirilsin)"
+    },
+    {
+      "id": 15, "ticket": 1, "topic": 4, "image": "sign_no_stopping",
+      "text": { "uz": "Bu belgi nimani anglatadi?", "ru": "Что означает этот знак?" },
+      "answers": [
+        { "uz": "Toʻxtash taqiqlangan", "ru": "Остановка запрещена" },
+        { "uz": "Toʻxtab turish taqiqlangan", "ru": "Стоянка запрещена" },
+        { "uz": "Kirish taqiqlangan", "ru": "Въезд запрещён" }
+      ],
+      "correct": 0,
+      "explanation": { "uz": "Ushbu belgi taʼsir doirasida transport vositalarining toʻxtashi va toʻxtab turishi taqiqlanadi.", "ru": "В зоне действия знака запрещены остановка и стоянка транспортных средств." },
+      "source": "YHQ — taqiqlovchi belgilar (namunaviy, rasmiy matn bilan tekshirilsin)"
+    },
+    {
+      "id": 16, "ticket": 1, "topic": 4, "image": "sign_no_parking",
+      "text": { "uz": "Bu belgi nimani anglatadi?", "ru": "Что означает этот знак?" },
+      "answers": [
+        { "uz": "Toʻxtab turish taqiqlangan", "ru": "Стоянка запрещена" },
+        { "uz": "Toʻxtash taqiqlangan", "ru": "Остановка запрещена" },
+        { "uz": "Avtoturargoh", "ru": "Место стоянки" }
+      ],
+      "correct": 0,
+      "explanation": { "uz": "Belgi toʻxtab turishni taqiqlaydi, lekin yoʻlovchini chiqarish yoki tushirish uchun qisqa toʻxtashga ruxsat beradi.", "ru": "Знак запрещает стоянку, но разрешает кратковременную остановку для посадки или высадки пассажиров." },
+      "source": "YHQ — taqiqlovchi belgilar (namunaviy, rasmiy matn bilan tekshirilsin)"
+    },
+    {
+      "id": 17, "ticket": 1, "topic": 4,
+      "text": { "uz": "Piyodalar oʻtish joyida toʻxtash mumkinmi?", "ru": "Разрешена ли остановка на пешеходном переходе?" },
+      "answers": [
+        { "uz": "Yoʻq, piyodalar oʻtish joyida va unga yaqin joyda toʻxtash taqiqlanadi", "ru": "Нет, остановка на пешеходном переходе и вблизи него запрещена" },
+        { "uz": "Ha, yoʻlovchini tushirish uchun", "ru": "Да, для высадки пассажира" },
+        { "uz": "Ha, avariya chiroqlari yoqilgan boʻlsa", "ru": "Да, если включена аварийная сигнализация" }
+      ],
+      "correct": 0,
+      "explanation": { "uz": "Toʻxtagan avtomobil piyodalarni toʻsib qoʻyadi va ularni boshqa haydovchilar koʻrmaydi, shuning uchun bu taqiqlangan.", "ru": "Остановившийся автомобиль закрывает обзор пешеходов для других водителей, поэтому это запрещено." },
+      "source": "YHQ — toʻxtash va toʻxtab turish (namunaviy, rasmiy matn bilan tekshirilsin)"
+    },
+    {
+      "id": 18, "ticket": 1, "topic": 6, "image": "sign_pedestrian_crossing",
+      "text": { "uz": "Tartibga solinmagan piyodalar oʻtish joyiga yaqinlashganda haydovchi nima qilishi shart?", "ru": "Что обязан сделать водитель, приближаясь к нерегулируемому пешеходному переходу?" },
+      "answers": [
+        { "uz": "Yoʻlni kesib oʻtayotgan yoki oʻtishga chiqqan piyodalarga yoʻl berishi", "ru": "Уступить дорогу пешеходам, переходящим или вступившим на переход" },
+        { "uz": "Tovush signali berib, piyodalarni toʻxtatishi", "ru": "Подать звуковой сигнал, чтобы пешеходы остановились" },
+        { "uz": "Faqat bolalarga yoʻl berishi", "ru": "Уступить дорогу только детям" }
+      ],
+      "correct": 0,
+      "explanation": { "uz": "Tartibga solinmagan oʻtish joyida piyodalar ustunlikka ega: haydovchi tezlikni pasaytirishi yoki toʻxtashi kerak.", "ru": "На нерегулируемом переходе преимущество у пешеходов: водитель должен снизить скорость или остановиться." },
+      "source": "YHQ — piyodalar oʻtish joylari (namunaviy, rasmiy matn bilan tekshirilsin)"
+    },
+    {
+      "id": 19, "ticket": 1, "topic": 7,
+      "text": { "uz": "Yoʻl-transport hodisasi sodir boʻlganda haydovchi birinchi navbatda nima qilishi kerak?", "ru": "Что водитель должен сделать в первую очередь при дорожно-транспортном происшествии?" },
+      "answers": [
+        { "uz": "Toʻxtash, avariya signalizatsiyasini yoqish, ogohlantiruvchi belgini qoʻyish, jabrlanganlarga yordam berish va tez yordamni chaqirish", "ru": "Остановиться, включить аварийную сигнализацию, выставить знак аварийной остановки, помочь пострадавшим и вызвать скорую помощь" },
+        { "uz": "Avtomobilni darhol joyidan surib, harakatni davom ettirish", "ru": "Сразу убрать автомобиль и продолжить движение" },
+        { "uz": "Hodisa joyini tark etish", "ru": "Покинуть место происшествия" }
+      ],
+      "correct": 0,
+      "explanation": { "uz": "Hodisa joyini tark etish taqiqlanadi. Avval xavfsizlikni taʼminlash va jabrlanganlarga yordam berish kerak.", "ru": "Покидать место ДТП запрещено. Сначала нужно обеспечить безопасность и оказать помощь пострадавшим." },
+      "source": "YHQ — YTH dagi majburiyatlar (namunaviy, rasmiy matn bilan tekshirilsin)"
+    },
+    {
+      "id": 20, "ticket": 1, "topic": 7,
+      "text": { "uz": "Arteriyadan qon ketayotganda (qon fontandek otilib chiqsa) nima qilish kerak?", "ru": "Что делать при артериальном кровотечении (кровь бьёт фонтаном)?" },
+      "answers": [
+        { "uz": "Yaradan yuqoriroqqa jgut qoʻyish va qoʻyilgan vaqtni yozib qoʻyish", "ru": "Наложить жгут выше раны и записать время наложения" },
+        { "uz": "Yaradan pastroqqa jgut qoʻyish", "ru": "Наложить жгут ниже раны" },
+        { "uz": "Yarani suv bilan yuvib, ochiq qoldirish", "ru": "Промыть рану водой и оставить открытой" }
+      ],
+      "correct": 0,
+      "explanation": { "uz": "Arterial qon ketishda jgut yaradan yuqoriroqqa qoʻyiladi. Jgut ostiga qoʻyilgan vaqt yozilgan qogʻoz qoʻyiladi.", "ru": "При артериальном кровотечении жгут накладывают выше раны. Под жгут кладут записку с временем наложения." },
+      "source": "Birinchi tibbiy yordam asoslari (namunaviy, rasmiy material bilan tekshirilsin)"
+    },
+    {
+      "id": 21, "ticket": 2, "topic": 8,
+      "text": { "uz": "Xavfsizlik kamarini kim taqishi shart?", "ru": "Кто обязан пристёгиваться ремнём безопасности?" },
+      "answers": [
+        { "uz": "Haydovchi va kamar oʻrnatilgan oʻrindiqlardagi barcha yoʻlovchilar", "ru": "Водитель и все пассажиры на местах, оборудованных ремнями" },
+        { "uz": "Faqat haydovchi", "ru": "Только водитель" },
+        { "uz": "Faqat aholi punktidan tashqarida", "ru": "Только вне населённых пунктов" }
+      ],
+      "correct": 0,
+      "explanation": { "uz": "Kamar oʻrnatilgan boʻlsa, harakat paytida haydovchi ham, yoʻlovchilar ham kamar taqishi kerak.", "ru": "Если транспортное средство оборудовано ремнями, во время движения пристёгнуты должны быть и водитель, и пассажиры." },
+      "source": "YHQ — haydovchining majburiyatlari (namunaviy, rasmiy matn bilan tekshirilsin)"
+    },
+    {
+      "id": 22, "ticket": 2, "topic": 8,
+      "text": { "uz": "Mast holatda transport vositasini boshqarish mumkinmi?", "ru": "Можно ли управлять транспортным средством в состоянии опьянения?" },
+      "answers": [
+        { "uz": "Yoʻq, har qanday mastlik holatida boshqarish taqiqlanadi", "ru": "Нет, управлять в любом состоянии опьянения запрещено" },
+        { "uz": "Oz miqdor ichilgan boʻlsa mumkin", "ru": "Можно, если выпито немного" },
+        { "uz": "Faqat kunduzi mumkin", "ru": "Можно только днём" }
+      ],
+      "correct": 0,
+      "explanation": { "uz": "Alkogol, giyohvand yoki boshqa vositalar taʼsirida, shuningdek charchagan yoki kasal holatda boshqarish taqiqlanadi.", "ru": "Запрещено управлять в состоянии алкогольного, наркотического или иного опьянения, а также в утомлённом или болезненном состоянии." },
+      "source": "YHQ — haydovchiga taqiqlar (namunaviy, rasmiy matn bilan tekshirilsin)"
+    },
+    {
+      "id": 23, "ticket": 2, "topic": 8,
+      "text": { "uz": "Harakat paytida qoʻlda ushlab telefonda gaplashish mumkinmi?", "ru": "Можно ли во время движения разговаривать по телефону, держа его в руке?" },
+      "answers": [
+        { "uz": "Yoʻq, faqat qoʻlni band qilmaydigan qurilma orqali mumkin", "ru": "Нет, только с помощью устройства, не занимающего руки" },
+        { "uz": "Ha, qisqa qoʻngʻiroq boʻlsa", "ru": "Да, если звонок короткий" },
+        { "uz": "Ha, tirbandlikda", "ru": "Да, в пробке" }
+      ],
+      "correct": 0,
+      "explanation": { "uz": "Qoʻlda ushlangan telefon diqqatni chalgʻitadi va bir qoʻlni band qiladi — bu xavfli va taqiqlangan.", "ru": "Телефон в руке отвлекает внимание и занимает руку — это опасно и запрещено." },
+      "source": "YHQ — haydovchiga taqiqlar (namunaviy, rasmiy matn bilan tekshirilsin)"
+    },
+    {
+      "id": 24, "ticket": 2, "topic": 8,
+      "text": { "uz": "Avariya yorugʻlik signalizatsiyasini qachon yoqish shart?", "ru": "Когда обязательно включать аварийную световую сигнализацию?" },
+      "answers": [
+        { "uz": "Yoʻl-transport hodisasi sodir boʻlganda va toʻxtash taqiqlangan joyda majburan toʻxtaganda", "ru": "При ДТП и при вынужденной остановке в месте, где остановка запрещена" },
+        { "uz": "Har gal toʻxtaganda", "ru": "При каждой остановке" },
+        { "uz": "Faqat tunda", "ru": "Только ночью" }
+      ],
+      "correct": 0,
+      "explanation": { "uz": "Avariya signalizatsiyasi boshqa haydovchilarni xavf haqida ogohlantirish uchun yoqiladi.", "ru": "Аварийная сигнализация включается, чтобы предупредить других водителей об опасности." },
+      "source": "YHQ — avariya signalizatsiyasi (namunaviy, rasmiy matn bilan tekshirilsin)"
+    },
+    {
+      "id": 25, "ticket": 2, "topic": 6,
+      "text": { "uz": "Chorrahada oʻngga yoki chapga burilayotganda haydovchi kimga yoʻl berishi shart?", "ru": "Кому обязан уступить дорогу водитель при повороте направо или налево на перекрёстке?" },
+      "answers": [
+        { "uz": "Burilayotgan yoʻlning qatnov qismini kesib oʻtayotgan piyodalar va velosipedchilarga", "ru": "Пешеходам и велосипедистам, пересекающим проезжую часть дороги, на которую он поворачивает" },
+        { "uz": "Hech kimga", "ru": "Никому" },
+        { "uz": "Faqat orqadan kelayotgan transportga", "ru": "Только транспорту, движущемуся сзади" }
+      ],
+      "correct": 0,
+      "explanation": { "uz": "Burilishda haydovchi burilayotgan yoʻlni kesib oʻtayotgan piyoda va velosipedchilarga yoʻl beradi.", "ru": "При повороте водитель уступает дорогу пешеходам и велосипедистам, пересекающим дорогу, на которую он поворачивает." },
+      "source": "YHQ — chorrahalardan oʻtish (namunaviy, rasmiy matn bilan tekshirilsin)"
+    },
+    {
+      "id": 26, "ticket": 2, "topic": 6,
+      "text": { "uz": "Oq hassa bilan yoʻlni kesib oʻtayotgan koʻzi ojiz piyodani koʻrsangiz nima qilasiz?", "ru": "Как поступить, если вы видите слепого пешехода с белой тростью, переходящего дорогу?" },
+      "answers": [
+        { "uz": "Tezlikni pasaytiraman yoki toʻxtab, unga yoʻl beraman", "ru": "Снижу скорость или остановлюсь, чтобы пропустить его" },
+        { "uz": "Tovush signali berib, uni ogohlantiraman va oʻtaman", "ru": "Предупрежу звуковым сигналом и проеду" },
+        { "uz": "Faqat piyodalar oʻtish joyida boʻlsa yoʻl beraman", "ru": "Уступлю, только если он на пешеходном переходе" }
+      ],
+      "correct": 0,
+      "explanation": { "uz": "Oq hassali koʻzi ojiz piyodaga har qanday joyda yoʻl berish kerak.", "ru": "Слепому пешеходу с белой тростью нужно уступить дорогу в любом месте." },
+      "source": "YHQ — piyodalarga nisbatan majburiyatlar (namunaviy, rasmiy matn bilan tekshirilsin)"
+    },
+    {
+      "id": 27, "ticket": 2, "topic": 5,
+      "text": { "uz": "Asosiy qizil signal yonib turganda qoʻshimcha seksiyadagi yashil oʻq yonsa nima qilish mumkin?", "ru": "Что можно делать, если при красном основном сигнале включена зелёная стрелка дополнительной секции?" },
+      "answers": [
+        { "uz": "Oʻq yoʻnalishida harakatlanish, boshqa yoʻnalishlardan kelayotgan transportga yoʻl berib", "ru": "Двигаться в направлении стрелки, уступив дорогу транспорту с других направлений" },
+        { "uz": "Har qanday yoʻnalishda harakatlanish", "ru": "Двигаться в любом направлении" },
+        { "uz": "Harakatlanish taqiqlanadi", "ru": "Движение запрещено" }
+      ],
+      "correct": 0,
+      "explanation": { "uz": "Qoʻshimcha seksiya yoqilganda harakat faqat oʻq yoʻnalishida va boshqa yoʻnalishdagilarga yoʻl berish sharti bilan mumkin.", "ru": "При включённой дополнительной секции движение разрешено только в направлении стрелки при условии, что вы уступите дорогу другим." },
+      "source": "YHQ — svetofor signallari (namunaviy, rasmiy matn bilan tekshirilsin)"
+    },
+    {
+      "id": 28, "ticket": 2, "topic": 5,
+      "text": { "uz": "Svetoforning yashil signali miltillay boshlasa, bu nimani bildiradi?", "ru": "Что означает мигающий зелёный сигнал светофора?" },
+      "answers": [
+        { "uz": "Yashil signal vaqti tugayapti, tez orada taqiqlovchi signal yonadi", "ru": "Время зелёного сигнала истекает, скоро включится запрещающий сигнал" },
+        { "uz": "Svetofor ishlamayapti", "ru": "Светофор неисправен" },
+        { "uz": "Tezlikni oshirib oʻtib qolish kerak", "ru": "Нужно ускориться, чтобы успеть проехать" }
+      ],
+      "correct": 0,
+      "explanation": { "uz": "Miltillovchi yashil signal harakatlanishga ruxsat beradi, lekin uning vaqti tugayotganini bildiradi.", "ru": "Мигающий зелёный разрешает движение, но информирует, что время его действия истекает." },
+      "source": "YHQ — svetofor signallari (namunaviy, rasmiy matn bilan tekshirilsin)"
+    },
+    {
+      "id": 29, "ticket": 2, "topic": 2,
+      "text": { "uz": "Svetofor bilan tartibga solinadigan chorrahada yashil signalda chapga burilayotganda qarama-qarshi yoʻnalishdan toʻgʻriga ketayotgan transportga nisbatan qanday harakat qilasiz?", "ru": "Как поступить при повороте налево на зелёный сигнал на регулируемом перекрёстке по отношению к встречному транспорту, движущемуся прямо?" },
+      "answers": [
+        { "uz": "Unga yoʻl beraman", "ru": "Уступлю ему дорогу" },
+        { "uz": "Ustunlik menda, chunki yashil signal", "ru": "Преимущество у меня, так как горит зелёный" },
+        { "uz": "Birinchi boʻlib chorrahaga kirgan oʻtadi", "ru": "Проезжает тот, кто первым въехал на перекрёсток" }
+      ],
+      "correct": 0,
+      "explanation": { "uz": "Yashil signalda chapga burilayotgan haydovchi qarama-qarshi yoʻnalishdan toʻgʻriga va oʻngga harakatlanayotganlarga yoʻl berishi shart.", "ru": "При повороте налево на зелёный водитель обязан уступить встречным транспортным средствам, движущимся прямо и направо." },
+      "source": "YHQ — chorrahalardan oʻtish (namunaviy, rasmiy matn bilan tekshirilsin)"
+    },
+    {
+      "id": 30, "ticket": 2, "topic": 2,
+      "text": { "uz": "Chorrahadan keyin tirbandlik boʻlsa, yashil signalda chorrahaga kirish mumkinmi?", "ru": "Можно ли въезжать на перекрёсток на зелёный, если за ним образовался затор?" },
+      "answers": [
+        { "uz": "Yoʻq, agar chorrahada toʻxtab qolib, koʻndalang harakatga toʻsqinlik qilsangiz", "ru": "Нет, если вы остановитесь на перекрёстке и создадите помеху поперечному движению" },
+        { "uz": "Ha, yashil signal boʻlsa doim mumkin", "ru": "Да, на зелёный можно всегда" },
+        { "uz": "Ha, avariya chiroqlarini yoqib", "ru": "Да, включив аварийную сигнализацию" }
+      ],
+      "correct": 0,
+      "explanation": { "uz": "Chorrahada toʻxtab qolib, boshqa yoʻnalishdagi transportga toʻsqinlik qiladigan boʻlsa, chorrahaga kirish taqiqlanadi.", "ru": "Запрещается выезжать на перекрёсток, если это вынудит остановиться на нём и создать помеху поперечному движению." },
+      "source": "YHQ — chorrahalardan oʻtish (namunaviy, rasmiy matn bilan tekshirilsin)"
+    },
+    {
+      "id": 31, "ticket": 2, "topic": 3,
+      "text": { "uz": "Quvib oʻtishni boshlashdan oldin haydovchi nimaga ishonch hosil qilishi kerak?", "ru": "В чём должен убедиться водитель перед началом обгона?" },
+      "answers": [
+        { "uz": "Qarama-qarshi tasma yetarli masofada boʻshligiga va orqadagi transport uni quvib oʻtishni boshlamaganiga", "ru": "Что встречная полоса свободна на достаточном расстоянии и его не начал обгонять транспорт сзади" },
+        { "uz": "Faqat oldindagi avtomobil sekin ketayotganiga", "ru": "Только в том, что впереди едущий автомобиль движется медленно" },
+        { "uz": "Hech narsaga — tovush signali yetarli", "ru": "Ни в чём — достаточно подать звуковой сигнал" }
+      ],
+      "correct": 0,
+      "explanation": { "uz": "Quvib oʻtish xavfsiz boʻlishi va boshqa ishtirokchilarga xalaqit bermasligi kerak.", "ru": "Обгон должен быть безопасным и не создавать помех другим участникам движения." },
+      "source": "YHQ — quvib oʻtish (namunaviy, rasmiy matn bilan tekshirilsin)"
+    },
+    {
+      "id": 32, "ticket": 2, "topic": 3,
+      "text": { "uz": "Tartibga solinmagan chorrahada ikkinchi darajali yoʻlda harakatlanayotganda quvib oʻtish mumkinmi?", "ru": "Разрешён ли обгон на нерегулируемом перекрёстке при движении по второстепенной дороге?" },
+      "answers": [
+        { "uz": "Yoʻq, taqiqlanadi", "ru": "Нет, запрещён" },
+        { "uz": "Ha, ruxsat etiladi", "ru": "Да, разрешён" },
+        { "uz": "Faqat oʻng tomondan mumkin", "ru": "Только справа" }
+      ],
+      "correct": 0,
+      "explanation": { "uz": "Ikkinchi darajali yoʻldan tartibga solinmagan chorrahada quvib oʻtish xavfli va taqiqlangan.", "ru": "Обгон на нерегулируемом перекрёстке при движении по второстепенной дороге опасен и запрещён." },
+      "source": "YHQ — quvib oʻtish (namunaviy, rasmiy matn bilan tekshirilsin)"
+    },
+    {
+      "id": 33, "ticket": 2, "topic": 4,
+      "text": { "uz": "Temir yoʻl kesishmasida toʻxtash mumkinmi?", "ru": "Разрешена ли остановка на железнодорожном переезде?" },
+      "answers": [
+        { "uz": "Yoʻq, taqiqlanadi", "ru": "Нет, запрещена" },
+        { "uz": "Ha, shlagbaum ochiq boʻlsa", "ru": "Да, если шлагбаум открыт" },
+        { "uz": "Ha, qisqa vaqtga", "ru": "Да, кратковременно" }
+      ],
+      "correct": 0,
+      "explanation": { "uz": "Temir yoʻl kesishmasida toʻxtash va toʻxtab turish taqiqlanadi. Majburan toʻxtasangiz, yoʻlovchilarni tushirib, kesishmani boʻshatish choralarini koʻring.", "ru": "Остановка и стоянка на переезде запрещены. При вынужденной остановке высадите людей и примите меры к освобождению переезда." },
+      "source": "YHQ — temir yoʻl kesishmalari (namunaviy, rasmiy matn bilan tekshirilsin)"
+    },
+    {
+      "id": 34, "ticket": 2, "topic": 4,
+      "text": { "uz": "«Toʻxtash» va «toʻxtab turish»ning farqi nimada?", "ru": "Чем «остановка» отличается от «стоянки»?" },
+      "answers": [
+        { "uz": "Toʻxtash — qisqa muddatli (yoʻlovchi chiqishi yoki yuk ortish uchun), toʻxtab turish — undan uzoqroq vaqt", "ru": "Остановка — кратковременное прекращение движения (для посадки/высадки или погрузки), стоянка — на более длительное время" },
+        { "uz": "Farqi yoʻq", "ru": "Разницы нет" },
+        { "uz": "Toʻxtash faqat tunda, toʻxtab turish kunduzi boʻladi", "ru": "Остановка бывает только ночью, стоянка — днём" }
+      ],
+      "correct": 0,
+      "explanation": { "uz": "Toʻxtash — qisqa muddatli harakatni toʻxtatish, toʻxtab turish esa yoʻlovchi yoki yukka bogʻliq boʻlmagan uzoqroq toʻxtash.", "ru": "Остановка — кратковременное прекращение движения, стоянка — более длительное, не связанное с посадкой пассажиров или погрузкой." },
+      "source": "YHQ — asosiy tushunchalar (namunaviy, rasmiy matn bilan tekshirilsin)"
+    },
+    {
+      "id": 35, "ticket": 2, "topic": 7,
+      "text": { "uz": "Hushini yoʻqotgan, lekin nafas olayotgan jabrlanuvchini qanday holatga keltirish kerak?", "ru": "В какое положение нужно уложить пострадавшего без сознания, но с дыханием?" },
+      "answers": [
+        { "uz": "Yonboshiga (barqaror holatga) yotqizish", "ru": "Уложить на бок (в устойчивое боковое положение)" },
+        { "uz": "Chalqancha yotqizib, boshini koʻtarish", "ru": "Уложить на спину и приподнять голову" },
+        { "uz": "Oʻtirgʻizib, suv ichirish", "ru": "Усадить и дать воды" }
+      ],
+      "correct": 0,
+      "explanation": { "uz": "Yonboshlab yotqizish til orqaga ketishi va qusuq bilan nafas yoʻli yopilishining oldini oladi.", "ru": "Боковое положение предотвращает западание языка и попадание рвотных масс в дыхательные пути." },
+      "source": "Birinchi tibbiy yordam asoslari (namunaviy, rasmiy material bilan tekshirilsin)"
+    },
+    {
+      "id": 36, "ticket": 2, "topic": 7,
+      "text": { "uz": "Jabrlanuvchi nafas olmayotgan boʻlsa nima qilish kerak?", "ru": "Что делать, если пострадавший не дышит?" },
+      "answers": [
+        { "uz": "Tez yordam chaqirib, darhol koʻkrak qafasiga bosish (yurakni bilvosita massaj qilish) va sunʼiy nafas berishni boshlash", "ru": "Вызвать скорую и сразу начать надавливания на грудную клетку (непрямой массаж сердца) и искусственное дыхание" },
+        { "uz": "Tez yordam kelguncha hech narsa qilmaslik", "ru": "Ничего не делать до приезда скорой" },
+        { "uz": "Yuziga suv sepish va kutish", "ru": "Брызнуть водой в лицо и ждать" }
+      ],
+      "correct": 0,
+      "explanation": { "uz": "Nafas va qon aylanishi toʻxtaganda har daqiqa muhim: yurak-oʻpka reanimatsiyasini kechiktirmaslik kerak.", "ru": "При остановке дыхания и кровообращения важна каждая минута: сердечно-лёгочную реанимацию нельзя откладывать." },
+      "source": "Birinchi tibbiy yordam asoslari (namunaviy, rasmiy material bilan tekshirilsin)"
+    },
+    {
+      "id": 37, "ticket": 2, "topic": 7,
+      "text": { "uz": "Termik kuyishda birinchi yordam qanday koʻrsatiladi?", "ru": "Как оказать первую помощь при термическом ожоге?" },
+      "answers": [
+        { "uz": "Kuygan joyni salqin oqar suv bilan uzoqroq vaqt sovutish", "ru": "Длительно охлаждать обожжённое место прохладной проточной водой" },
+        { "uz": "Kuygan joyga yogʻ surtish", "ru": "Смазать обожжённое место маслом" },
+        { "uz": "Pufakchalarni yorib, bogʻlab qoʻyish", "ru": "Вскрыть пузыри и забинтовать" }
+      ],
+      "correct": 0,
+      "explanation": { "uz": "Sovutish ogʻriqni kamaytiradi va kuyish chuqurlashishining oldini oladi. Yogʻ surtish va pufakchalarni yorish mumkin emas.", "ru": "Охлаждение уменьшает боль и предотвращает углубление ожога. Нельзя смазывать маслом и вскрывать пузыри." },
+      "source": "Birinchi tibbiy yordam asoslari (namunaviy, rasmiy material bilan tekshirilsin)"
+    },
+    {
+      "id": 38, "ticket": 2, "topic": 8,
+      "text": { "uz": "Tunda qarama-qarshi kelayotgan haydovchining koʻzini qamashtirmaslik uchun nima qilish kerak?", "ru": "Что нужно сделать ночью, чтобы не ослепить встречного водителя?" },
+      "answers": [
+        { "uz": "Uzoqni yorituvchi chiroqni yaqinni yorituvchiga almashtirish", "ru": "Переключить дальний свет на ближний" },
+        { "uz": "Barcha chiroqlarni oʻchirish", "ru": "Выключить все фары" },
+        { "uz": "Tumanga qarshi chiroqlarni yoqish", "ru": "Включить противотуманные фары" }
+      ],
+      "correct": 0,
+      "explanation": { "uz": "Qarama-qarshi harakatlanishda uzoqni yorituvchi chiroq oldindan yaqinga almashtiriladi.", "ru": "При встречном разъезде дальний свет заблаговременно переключают на ближний." },
+      "source": "YHQ — tashqi yoritish asboblaridan foydalanish (namunaviy, rasmiy matn bilan tekshirilsin)"
+    },
+    {
+      "id": 39, "ticket": 2, "topic": 8,
+      "text": { "uz": "Burilish koʻrsatkichini qachon yoqish kerak?", "ru": "Когда нужно включать указатель поворота?" },
+      "answers": [
+        { "uz": "Manyovr boshlanishidan oldin va u tugagach darhol oʻchirish", "ru": "Заблаговременно до начала манёвра и выключить сразу после его окончания" },
+        { "uz": "Manyovr paytida", "ru": "Во время манёвра" },
+        { "uz": "Faqat boshqa avtomobillar boʻlsa", "ru": "Только если рядом есть другие автомобили" }
+      ],
+      "correct": 0,
+      "explanation": { "uz": "Ogohlantiruvchi signal boshqa ishtirokchilarga niyatingizni oldindan bildirishi kerak, ammo u sizga ustunlik bermaydi.", "ru": "Сигнал должен заранее сообщать о ваших намерениях, но он не даёт вам преимущества." },
+      "source": "YHQ — ogohlantiruvchi signallar (namunaviy, rasmiy matn bilan tekshirilsin)"
+    },
+    {
+      "id": 40, "ticket": 2, "topic": 8,
+      "text": { "uz": "Qayerda orqaga harakatlanish taqiqlanadi?", "ru": "Где запрещено движение задним ходом?" },
+      "answers": [
+        { "uz": "Chorrahalarda va piyodalar oʻtish joylarida", "ru": "На перекрёстках и пешеходных переходах" },
+        { "uz": "Faqat avtomagistrallarda tunda", "ru": "Только на автомагистралях ночью" },
+        { "uz": "Hech qayerda taqiqlanmaydi", "ru": "Нигде не запрещено" }
+      ],
+      "correct": 0,
+      "explanation": { "uz": "Chorrahalar va piyodalar oʻtish joylarida orqaga harakatlanish boshqa ishtirokchilar uchun kutilmagan va xavfli.", "ru": "Движение задним ходом на перекрёстках и пешеходных переходах неожиданно и опасно для других участников." },
+      "source": "YHQ — manyovr qilish (namunaviy, rasmiy matn bilan tekshirilsin)"
+    }
+  ]
+}
