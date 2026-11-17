@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Prava Test 2026</string>
+    <string name="choose_language">Tilni tanlang · Выберите язык</string>
+    <string name="back">Orqaga</string>
+    <string name="close">Yopish</string>
+    <string name="next">Keyingi</string>
+    <string name="finish">Yakunlash</string>
+    <string name="test">Test</string>
+    <string name="questions">Savollar</string>
+    <string name="result">Natija</string>
+    <string name="settings">Sozlamalar</string>
+
+    <string name="readiness">Tayyorlik</string>
+    <string name="readiness_hint">Siz %1$d%% tayyorsiz (oxirgi 5 ta imtihon boʻyicha)</string>
+    <string name="readiness_hint_empty">Tayyorlik foizini koʻrish uchun imtihon rejimini sinab koʻring</string>
+    <string name="tickets">Biletlar</string>
+    <string name="tickets_count">%1$d ta bilet</string>
+    <string name="topics">Mavzular</string>
+    <string name="topics_count">%1$d ta mavzu</string>
+    <string name="exam">Imtihon</string>
+    <string name="exam_subtitle">20 savol · 25 daqiqa</string>
+    <string name="my_mistakes">Xatolarim</string>
+    <string name="count_questions">%1$d ta savol</string>
+    <string name="favorites">Saralanganlar</string>
+    <string name="statistics">Statistika</string>
+
+    <string name="ticket_n">%1$d-bilet</string>
+    <string name="status_new">Yechilmagan</string>
+    <string name="status_passed">Oʻtdi</string>
+    <string name="status_failed">Yiqildi</string>
+
+    <string name="question_progress">%1$d/%2$d</string>
+    <string name="mistakes_count">Xato: %1$d/%2$d</string>
+    <string name="favorite">Saralanganlarga qoʻshish</string>
+    <string name="empty_quiz_title">Savollar yoʻq</string>
+    <string name="empty_quiz_message">Bu boʻlimda hozircha savol topilmadi.</string>
+    <string name="exam_failed_title">Imtihondan oʻtolmadingiz</string>
+    <string name="exam_failed_message">%1$d ta xato qildingiz. Real imtihonda bu yerda test toʻxtatiladi.</string>
+    <string name="see_result">Natijani koʻrish</string>
+
+    <string name="practice_done">Mashq yakunlandi</string>
+    <string name="passed">Tabriklaymiz, oʻtdingiz!</string>
+    <string name="failed">Afsuski, oʻtolmadingiz</string>
+    <string name="correct_answers">Toʻgʻri</string>
+    <string name="wrong_answers">Xato</string>
+    <string name="review_mistakes">Xatolarni koʻrish</string>
+    <string name="to_home">Bosh sahifaga</string>
+    <string name="not_answered">Javob berilmagan</string>
+    <string name="unlock_explanation">Batafsil izohni ochish (reklama)</string>
+    <string name="source">Manba: %1$s</string>
+
+    <string name="no_mistakes">Xatolar yoʻq</string>
+    <string name="no_mistakes_hint">Xato qilingan savollar shu yerda yigʻiladi va keyingi kunlarda qayta chiqadi.</string>
+    <string name="no_favorites">Saralanganlar boʻsh</string>
+    <string name="no_favorites_hint">Savol ekranidagi yulduzcha bilan savolni saqlab qoʻying.</string>
+    <string name="correct_answer_is">Toʻgʻri javob: %1$s</string>
+    <string name="practice_these">Shu savollarni yechish</string>
+
+    <string name="stats_empty">Statistika hali yoʻq. Bir nechta savol yeching.</string>
+    <string name="solved">Yechilgan</string>
+    <string name="correct_percent">Toʻgʻri javoblar</string>
+    <string name="by_days">Kunlar boʻyicha</string>
+    <string name="weak_topics">Zaif mavzular</string>
+    <string name="topic_wrong_percent">%1$s — %2$d%% xato</string>
+
+    <string name="language">Til</string>
+    <string name="category">Toifa</string>
+    <string name="category_value">%1$s (oʻtish: %2$d/20)</string>
+    <string name="theme">Tema</string>
+    <string name="theme_system">Tizim</string>
+    <string name="theme_light">Yorugʻ</string>
+    <string name="theme_dark">Qorongʻi</string>
+    <string name="sound">Ovoz</string>
+    <string name="privacy_options">Reklama maxfiyligi sozlamalari</string>
+    <string name="privacy_policy">Maxfiylik siyosati</string>
+    <string name="rate_app">Ilovani baholash</string>
+    <string name="disclaimer">Ilova rasmiy emas va hech qanday davlat idorasiga tegishli emas. Savollar Yoʻl harakati qoidalari asosida tayyorlangan, izohlar mualliflar tomonidan yozilgan.</string>
+</resources>
